@@ -234,6 +234,7 @@
             // panelConteudo
             // 
             panelConteudo.BackColor = Color.FromArgb(130, 166, 104);
+            panelConteudo.BorderThickness = 20;
             panelConteudo.CustomizableEdges = customizableEdges1;
             panelConteudo.Location = new Point(21, 120);
             panelConteudo.Name = "panelConteudo";

@@ -90,5 +90,23 @@ namespace OsanideBLL
             funcionarioExistente.Cargo = funcionarioDTO.Cargo;
             funcionarioExistente.Email = funcionarioDTO.Email;
         }
+
+        public void AtualizarFuncionario(FuncionarioDTO funcionarioDTO)
+        {
+            var funcionarioExistente = Database.Funcionarios.FirstOrDefault(funcionario => funcionario.Id == funcionarioDTO.Id);
+
+            if (funcionarioExistente == null)
+                throw new Exception("Funcionário não encontrado.");
+
+            if (string.IsNullOrWhiteSpace(funcionarioDTO.Nome))
+                throw new Exception("Nome é obrigatório.");
+
+            funcionarioExistente.Nome = funcionarioDTO.Nome;
+            funcionarioExistente.Login = funcionarioDTO.Login;
+            funcionarioExistente.Email = funcionarioDTO.Email;
+            funcionarioExistente.Senha = funcionarioDTO.Senha;
+            funcionarioExistente.Cargo = funcionarioDTO.Cargo;
+            funcionarioExistente.DataDeAdmissao = funcionarioDTO.DataDeAdmissao;
+        }
     }
 }

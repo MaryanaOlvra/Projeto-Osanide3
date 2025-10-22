@@ -61,7 +61,7 @@
             // 
             pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.Image = Properties.Resources.round_logo;
-            pictureBox1.Location = new Point(394, 74);
+            pictureBox1.Location = new Point(244, 25);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(300, 200);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -72,7 +72,7 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.Location = new Point(427, 300);
+            label1.Location = new Point(277, 251);
             label1.Name = "label1";
             label1.Size = new Size(242, 21);
             label1.TabIndex = 1;
@@ -91,7 +91,7 @@
             txtSenha.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtSenha.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtSenha.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSenha.Location = new Point(394, 444);
+            txtSenha.Location = new Point(244, 395);
             txtSenha.Name = "txtSenha";
             txtSenha.PlaceholderText = "Insira sua senha";
             txtSenha.SelectedText = "";
@@ -112,7 +112,7 @@
             txtLogin.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtLogin.Font = new Font("Century Gothic", 9F);
             txtLogin.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtLogin.Location = new Point(394, 369);
+            txtLogin.Location = new Point(244, 320);
             txtLogin.Name = "txtLogin";
             txtLogin.PlaceholderText = "Insira seu login";
             txtLogin.SelectedText = "";
@@ -132,7 +132,7 @@
             btnEntrar.FillColor = Color.FromArgb(2, 63, 29);
             btnEntrar.Font = new Font("Century Gothic", 9F);
             btnEntrar.ForeColor = Color.White;
-            btnEntrar.Location = new Point(394, 522);
+            btnEntrar.Location = new Point(244, 473);
             btnEntrar.Name = "btnEntrar";
             btnEntrar.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnEntrar.Size = new Size(142, 45);
@@ -151,7 +151,7 @@
             btnSair.FillColor = Color.FromArgb(64, 64, 64);
             btnSair.Font = new Font("Century Gothic", 9F);
             btnSair.ForeColor = Color.White;
-            btnSair.Location = new Point(552, 522);
+            btnSair.Location = new Point(402, 473);
             btnSair.Name = "btnSair";
             btnSair.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnSair.Size = new Size(142, 45);
@@ -162,7 +162,7 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(394, 345);
+            label2.Location = new Point(244, 296);
             label2.Name = "label2";
             label2.Size = new Size(51, 21);
             label2.TabIndex = 1;
@@ -172,7 +172,7 @@
             // 
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
-            label3.Location = new Point(394, 420);
+            label3.Location = new Point(244, 371);
             label3.Name = "label3";
             label3.Size = new Size(59, 21);
             label3.TabIndex = 1;
@@ -182,7 +182,7 @@
             // 
             lblEsqueciSenha.Anchor = AnchorStyles.None;
             lblEsqueciSenha.AutoSize = true;
-            lblEsqueciSenha.Location = new Point(455, 488);
+            lblEsqueciSenha.Location = new Point(305, 439);
             lblEsqueciSenha.Name = "lblEsqueciSenha";
             lblEsqueciSenha.Size = new Size(177, 21);
             lblEsqueciSenha.TabIndex = 1;
@@ -192,7 +192,7 @@
             // 
             lblCadastrar.Anchor = AnchorStyles.None;
             lblCadastrar.AutoSize = true;
-            lblCadastrar.Location = new Point(427, 612);
+            lblCadastrar.Location = new Point(277, 563);
             lblCadastrar.Name = "lblCadastrar";
             lblCadastrar.Size = new Size(237, 21);
             lblCadastrar.TabIndex = 1;
@@ -203,7 +203,7 @@
             AutoScaleDimensions = new SizeF(10F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Linen;
-            ClientSize = new Size(1120, 785);
+            ClientSize = new Size(800, 600);
             Controls.Add(btnSair);
             Controls.Add(btnEntrar);
             Controls.Add(txtLogin);
