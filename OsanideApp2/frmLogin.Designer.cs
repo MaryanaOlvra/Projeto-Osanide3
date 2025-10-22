@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges9 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges10 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges11 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges12 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges13 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges14 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges15 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges16 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges7 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges8 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             guna2BorderlessForm1 = new Guna.UI2.WinForms.Guna2BorderlessForm(components);
             pictureBox1 = new PictureBox();
             label1 = new Label();
@@ -61,7 +61,7 @@
             // 
             pictureBox1.Anchor = AnchorStyles.None;
             pictureBox1.Image = Properties.Resources.round_logo;
-            pictureBox1.Location = new Point(300, 50);
+            pictureBox1.Location = new Point(394, 74);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(300, 200);
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
@@ -72,7 +72,7 @@
             // 
             label1.Anchor = AnchorStyles.None;
             label1.AutoSize = true;
-            label1.Location = new Point(333, 278);
+            label1.Location = new Point(427, 300);
             label1.Name = "label1";
             label1.Size = new Size(242, 21);
             label1.TabIndex = 1;
@@ -82,7 +82,7 @@
             // 
             txtSenha.Anchor = AnchorStyles.None;
             txtSenha.BorderRadius = 15;
-            txtSenha.CustomizableEdges = customizableEdges9;
+            txtSenha.CustomizableEdges = customizableEdges7;
             txtSenha.DefaultText = "";
             txtSenha.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtSenha.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -91,11 +91,11 @@
             txtSenha.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtSenha.Font = new Font("Century Gothic", 9F, FontStyle.Regular, GraphicsUnit.Point, 0);
             txtSenha.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtSenha.Location = new Point(300, 422);
+            txtSenha.Location = new Point(394, 444);
             txtSenha.Name = "txtSenha";
             txtSenha.PlaceholderText = "Insira sua senha";
             txtSenha.SelectedText = "";
-            txtSenha.ShadowDecoration.CustomizableEdges = customizableEdges10;
+            txtSenha.ShadowDecoration.CustomizableEdges = customizableEdges8;
             txtSenha.Size = new Size(300, 41);
             txtSenha.TabIndex = 2;
             // 
@@ -103,7 +103,7 @@
             // 
             txtLogin.Anchor = AnchorStyles.None;
             txtLogin.BorderRadius = 15;
-            txtLogin.CustomizableEdges = customizableEdges11;
+            txtLogin.CustomizableEdges = customizableEdges5;
             txtLogin.DefaultText = "";
             txtLogin.DisabledState.BorderColor = Color.FromArgb(208, 208, 208);
             txtLogin.DisabledState.FillColor = Color.FromArgb(226, 226, 226);
@@ -112,11 +112,11 @@
             txtLogin.FocusedState.BorderColor = Color.FromArgb(94, 148, 255);
             txtLogin.Font = new Font("Century Gothic", 9F);
             txtLogin.HoverState.BorderColor = Color.FromArgb(94, 148, 255);
-            txtLogin.Location = new Point(300, 347);
+            txtLogin.Location = new Point(394, 369);
             txtLogin.Name = "txtLogin";
             txtLogin.PlaceholderText = "Insira seu login";
             txtLogin.SelectedText = "";
-            txtLogin.ShadowDecoration.CustomizableEdges = customizableEdges12;
+            txtLogin.ShadowDecoration.CustomizableEdges = customizableEdges6;
             txtLogin.Size = new Size(300, 41);
             txtLogin.TabIndex = 3;
             // 
@@ -124,7 +124,7 @@
             // 
             btnEntrar.Anchor = AnchorStyles.None;
             btnEntrar.BorderRadius = 15;
-            btnEntrar.CustomizableEdges = customizableEdges13;
+            btnEntrar.CustomizableEdges = customizableEdges3;
             btnEntrar.DisabledState.BorderColor = Color.DarkGray;
             btnEntrar.DisabledState.CustomBorderColor = Color.DarkGray;
             btnEntrar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -132,9 +132,9 @@
             btnEntrar.FillColor = Color.FromArgb(2, 63, 29);
             btnEntrar.Font = new Font("Century Gothic", 9F);
             btnEntrar.ForeColor = Color.White;
-            btnEntrar.Location = new Point(300, 500);
+            btnEntrar.Location = new Point(394, 522);
             btnEntrar.Name = "btnEntrar";
-            btnEntrar.ShadowDecoration.CustomizableEdges = customizableEdges14;
+            btnEntrar.ShadowDecoration.CustomizableEdges = customizableEdges4;
             btnEntrar.Size = new Size(142, 45);
             btnEntrar.TabIndex = 4;
             btnEntrar.Text = "Entrar";
@@ -143,7 +143,7 @@
             // 
             btnSair.Anchor = AnchorStyles.None;
             btnSair.BorderRadius = 15;
-            btnSair.CustomizableEdges = customizableEdges15;
+            btnSair.CustomizableEdges = customizableEdges1;
             btnSair.DisabledState.BorderColor = Color.DarkGray;
             btnSair.DisabledState.CustomBorderColor = Color.DarkGray;
             btnSair.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
@@ -151,9 +151,9 @@
             btnSair.FillColor = Color.FromArgb(64, 64, 64);
             btnSair.Font = new Font("Century Gothic", 9F);
             btnSair.ForeColor = Color.White;
-            btnSair.Location = new Point(458, 500);
+            btnSair.Location = new Point(552, 522);
             btnSair.Name = "btnSair";
-            btnSair.ShadowDecoration.CustomizableEdges = customizableEdges16;
+            btnSair.ShadowDecoration.CustomizableEdges = customizableEdges2;
             btnSair.Size = new Size(142, 45);
             btnSair.TabIndex = 4;
             btnSair.Text = "Sair";
@@ -162,7 +162,7 @@
             // 
             label2.Anchor = AnchorStyles.None;
             label2.AutoSize = true;
-            label2.Location = new Point(300, 323);
+            label2.Location = new Point(394, 345);
             label2.Name = "label2";
             label2.Size = new Size(51, 21);
             label2.TabIndex = 1;
@@ -172,7 +172,7 @@
             // 
             label3.Anchor = AnchorStyles.None;
             label3.AutoSize = true;
-            label3.Location = new Point(300, 398);
+            label3.Location = new Point(394, 420);
             label3.Name = "label3";
             label3.Size = new Size(59, 21);
             label3.TabIndex = 1;
@@ -182,7 +182,7 @@
             // 
             lblEsqueciSenha.Anchor = AnchorStyles.None;
             lblEsqueciSenha.AutoSize = true;
-            lblEsqueciSenha.Location = new Point(361, 466);
+            lblEsqueciSenha.Location = new Point(455, 488);
             lblEsqueciSenha.Name = "lblEsqueciSenha";
             lblEsqueciSenha.Size = new Size(177, 21);
             lblEsqueciSenha.TabIndex = 1;
@@ -192,7 +192,7 @@
             // 
             lblCadastrar.Anchor = AnchorStyles.None;
             lblCadastrar.AutoSize = true;
-            lblCadastrar.Location = new Point(333, 590);
+            lblCadastrar.Location = new Point(427, 612);
             lblCadastrar.Name = "lblCadastrar";
             lblCadastrar.Size = new Size(237, 21);
             lblCadastrar.TabIndex = 1;

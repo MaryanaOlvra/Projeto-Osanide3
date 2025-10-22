@@ -63,9 +63,184 @@ namespace OsanideDesktop.Properties {
         /// <summary>
         ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cadastrarUsuario {
+            get {
+                object obj = ResourceManager.GetObject("cadastrarUsuario", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap caixaEstoque {
+            get {
+                object obj = ResourceManager.GetObject("caixaEstoque", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap carrinhoCompra {
+            get {
+                object obj = ResourceManager.GetObject("carrinhoCompra", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__1__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__1_-removebg-pr" +
+                        "eview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__1__removebg_preview__1_ {
+            get {
+                object obj = ResourceManager.GetObject("Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__1_-removebg-pr" +
+                        "eview (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__2_ {
+            get {
+                object obj = ResourceManager.GetObject("Cream and Green Minimalist Illustrative Psychological Center Logo (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__2__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__2_-removebg-pr" +
+                        "eview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__2__removebg_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__2_-removebg-pr" +
+                        "eview1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__3_ {
+            get {
+                object obj = ResourceManager.GetObject("Cream and Green Minimalist Illustrative Psychological Center Logo (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__3__removebg_preview {
+            get {
+                object obj = ResourceManager.GetObject("Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__3_-removebg-pr" +
+                        "eview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Cream_and_Green_Minimalist_Illustrative_Psychological_Center_Logo__4_ {
+            get {
+                object obj = ResourceManager.GetObject("Cream and Green Minimalist Illustrative Psychological Center Logo (4)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap engrenagemConfig {
+            get {
+                object obj = ResourceManager.GetObject("engrenagemConfig", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap grupoUsers {
+            get {
+                object obj = ResourceManager.GetObject("grupoUsers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconAdd {
+            get {
+                object obj = ResourceManager.GetObject("iconAdd", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap iconCasa {
+            get {
+                object obj = ResourceManager.GetObject("iconCasa", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap round_logo {
             get {
                 object obj = ResourceManager.GetObject("round-logo", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap round_logo1 {
+            get {
+                object obj = ResourceManager.GetObject("round-logo1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Consulta um recurso localizado do tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap userSolo {
+            get {
+                object obj = ResourceManager.GetObject("userSolo", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

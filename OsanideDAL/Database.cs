@@ -14,5 +14,11 @@ namespace OsanideDAL
             get => JsonDatabase.Ler<FuncionarioDTO>("Funcionarios.Json");
             set => JsonDatabase.Salvar("Funcionarios.Json", value);
         }
+
+        public static List<ProdutoDTO> QtdEstoque
+        {
+            get => JsonDatabase.Ler<ProdutoDTO>("QtdEstoque.Json");
+            set => JsonDatabase.Salvar("QtdEstoque.Json", value);
+        }
     }
 }

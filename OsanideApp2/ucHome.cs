@@ -1,12 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
+﻿using OsanideDAL;
 
 namespace OsanideDesktop
 {
@@ -15,6 +7,28 @@ namespace OsanideDesktop
         public ucHome()
         {
             InitializeComponent();
+        }
+
+        private void ucHome_Load(object sender, EventArgs e)
+        {
+            ContarFuncionarios();
+            ContarQtdEstoque();
+            ContarProdutos();
+        }
+
+        private void ContarFuncionarios()
+        {
+            lblFuncionarios.Text = Database.Funcionarios.Count.ToString();
+        }
+
+        private void ContarQtdEstoque()
+        {
+            lblQtdEstoque.Text = Database.QtdEstoque.Count.ToString();
+        }
+
+        private void ContarProdutos()
+        {
+            lblProdutos.Text = Database.Produtos.Count.ToString();
         }
     }
 }
