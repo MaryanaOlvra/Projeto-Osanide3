@@ -30,5 +30,10 @@ namespace OsanideDesktop
         {
             lblProdutos.Text = Database.Produtos.Count.ToString();
         }
+
+        private void guna2PictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -43,6 +43,7 @@
             lblFuncionarios = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblQtdEstoque = new Guna.UI2.WinForms.Guna2HtmlLabel();
             lblProdutos = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)guna2PictureBox3).BeginInit();
@@ -52,22 +53,23 @@
             // 
             guna2PictureBox1.BorderRadius = 55;
             guna2PictureBox1.CustomizableEdges = customizableEdges1;
-            guna2PictureBox1.FillColor = Color.FromArgb(130, 166, 104);
+            guna2PictureBox1.FillColor = Color.FromArgb(31, 89, 5);
             guna2PictureBox1.ImageRotate = 0F;
-            guna2PictureBox1.Location = new Point(17, 28);
+            guna2PictureBox1.Location = new Point(17, 85);
             guna2PictureBox1.Name = "guna2PictureBox1";
             guna2PictureBox1.ShadowDecoration.CustomizableEdges = customizableEdges2;
             guna2PictureBox1.Size = new Size(725, 110);
             guna2PictureBox1.TabIndex = 0;
             guna2PictureBox1.TabStop = false;
+            guna2PictureBox1.Click += guna2PictureBox1_Click;
             // 
             // guna2PictureBox2
             // 
             guna2PictureBox2.BorderRadius = 55;
             guna2PictureBox2.CustomizableEdges = customizableEdges3;
-            guna2PictureBox2.FillColor = Color.FromArgb(31, 89, 5);
+            guna2PictureBox2.FillColor = Color.FromArgb(2, 63, 29);
             guna2PictureBox2.ImageRotate = 0F;
-            guna2PictureBox2.Location = new Point(17, 172);
+            guna2PictureBox2.Location = new Point(17, 201);
             guna2PictureBox2.Name = "guna2PictureBox2";
             guna2PictureBox2.ShadowDecoration.CustomizableEdges = customizableEdges4;
             guna2PictureBox2.Size = new Size(725, 110);
@@ -78,7 +80,7 @@
             // 
             guna2PictureBox3.BorderRadius = 55;
             guna2PictureBox3.CustomizableEdges = customizableEdges5;
-            guna2PictureBox3.FillColor = Color.FromArgb(2, 63, 29);
+            guna2PictureBox3.FillColor = Color.FromArgb(1, 41, 5);
             guna2PictureBox3.ImageRotate = 0F;
             guna2PictureBox3.Location = new Point(17, 317);
             guna2PictureBox3.Name = "guna2PictureBox3";
@@ -89,10 +91,10 @@
             // 
             // guna2HtmlLabel1
             // 
-            guna2HtmlLabel1.BackColor = Color.FromArgb(130, 166, 104);
+            guna2HtmlLabel1.BackColor = Color.FromArgb(31, 89, 5);
             guna2HtmlLabel1.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel1.ForeColor = Color.White;
-            guna2HtmlLabel1.Location = new Point(237, 67);
+            guna2HtmlLabel1.Location = new Point(237, 124);
             guna2HtmlLabel1.Name = "guna2HtmlLabel1";
             guna2HtmlLabel1.Size = new Size(250, 30);
             guna2HtmlLabel1.TabIndex = 3;
@@ -100,10 +102,10 @@
             // 
             // guna2HtmlLabel2
             // 
-            guna2HtmlLabel2.BackColor = Color.FromArgb(31, 89, 5);
+            guna2HtmlLabel2.BackColor = Color.FromArgb(2, 63, 29);
             guna2HtmlLabel2.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel2.ForeColor = Color.White;
-            guna2HtmlLabel2.Location = new Point(257, 207);
+            guna2HtmlLabel2.Location = new Point(257, 236);
             guna2HtmlLabel2.Name = "guna2HtmlLabel2";
             guna2HtmlLabel2.Size = new Size(211, 30);
             guna2HtmlLabel2.TabIndex = 4;
@@ -111,7 +113,7 @@
             // 
             // guna2HtmlLabel3
             // 
-            guna2HtmlLabel3.BackColor = Color.FromArgb(2, 63, 29);
+            guna2HtmlLabel3.BackColor = Color.FromArgb(1, 41, 5);
             guna2HtmlLabel3.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             guna2HtmlLabel3.ForeColor = Color.White;
             guna2HtmlLabel3.Location = new Point(190, 355);
@@ -122,10 +124,10 @@
             // 
             // lblFuncionarios
             // 
-            lblFuncionarios.BackColor = Color.FromArgb(130, 166, 104);
+            lblFuncionarios.BackColor = Color.FromArgb(31, 89, 5);
             lblFuncionarios.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblFuncionarios.ForeColor = Color.White;
-            lblFuncionarios.Location = new Point(493, 67);
+            lblFuncionarios.Location = new Point(493, 124);
             lblFuncionarios.Name = "lblFuncionarios";
             lblFuncionarios.Size = new Size(29, 30);
             lblFuncionarios.TabIndex = 6;
@@ -133,7 +135,7 @@
             // 
             // lblQtdEstoque
             // 
-            lblQtdEstoque.BackColor = Color.FromArgb(2, 63, 29);
+            lblQtdEstoque.BackColor = Color.FromArgb(1, 41, 5);
             lblQtdEstoque.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblQtdEstoque.ForeColor = Color.White;
             lblQtdEstoque.Location = new Point(552, 355);
@@ -144,20 +146,32 @@
             // 
             // lblProdutos
             // 
-            lblProdutos.BackColor = Color.FromArgb(31, 89, 5);
+            lblProdutos.BackColor = Color.FromArgb(2, 63, 29);
             lblProdutos.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblProdutos.ForeColor = Color.White;
-            lblProdutos.Location = new Point(474, 207);
+            lblProdutos.Location = new Point(474, 236);
             lblProdutos.Name = "lblProdutos";
             lblProdutos.Size = new Size(29, 30);
             lblProdutos.TabIndex = 8;
             lblProdutos.Text = "99";
             // 
+            // guna2HtmlLabel4
+            // 
+            guna2HtmlLabel4.BackColor = Color.FromArgb(130, 166, 104);
+            guna2HtmlLabel4.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            guna2HtmlLabel4.ForeColor = Color.White;
+            guna2HtmlLabel4.Location = new Point(223, 16);
+            guna2HtmlLabel4.Name = "guna2HtmlLabel4";
+            guna2HtmlLabel4.Size = new Size(312, 30);
+            guna2HtmlLabel4.TabIndex = 9;
+            guna2HtmlLabel4.Text = "Dados atuais da empresa:";
+            // 
             // ucHome
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.Control;
+            BackColor = Color.FromArgb(130, 166, 104);
+            Controls.Add(guna2HtmlLabel4);
             Controls.Add(lblProdutos);
             Controls.Add(lblQtdEstoque);
             Controls.Add(lblFuncionarios);
@@ -188,5 +202,6 @@
         private Guna.UI2.WinForms.Guna2HtmlLabel lblFuncionarios;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblQtdEstoque;
         private Guna.UI2.WinForms.Guna2HtmlLabel lblProdutos;
+        private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
     }
 }
