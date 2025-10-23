@@ -13,6 +13,10 @@ namespace OsanideDesktop
         {
             InitializeComponent();
         }
+        private void ucFuncionarios_Load(object sender, EventArgs e)
+        {
+            AtualizarGrid();
+        }
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
@@ -41,10 +45,6 @@ namespace OsanideDesktop
             txtDataDeAdmissao.Text = string.Empty;
         }
 
-        private void ucFuncionarios_Load(object sender, EventArgs e)
-        {
-            AtualizarGrid();
-        }
 
         private void AtualizarGrid()
         {
@@ -168,7 +168,7 @@ namespace OsanideDesktop
             dgFuncionarios.DataSource = filtrados;
         }
 
-        private void dgFuncionarios_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dgFuncionarios_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
@@ -189,6 +189,5 @@ namespace OsanideDesktop
                 }
             }
         }
-
     }
 }
